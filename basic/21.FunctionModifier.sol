@@ -1,6 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
+/**
+Modifiers are code that can be run before and / or after a function call.
+
+Modifiers can be used to:
+    - Restrict access
+    - Validate inputs
+    - Guard against reentrancy hack
+
+ */
+
 contract FunctionModifier {
     // We will use these variables to demonstrate how to use
     // modifiers.

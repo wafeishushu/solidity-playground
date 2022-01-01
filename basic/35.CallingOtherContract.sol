@@ -1,13 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-// Contract can call other contracts in 2 ways.
+/**
+Contract can call other contracts in 2 ways.
 
-// The easiest way to is to just call it, like A.foo(x, y, z).
+The easiest way to is to just call it, like A.foo(x, y, z).
 
-// Another way to call other contracts is to use the low-level call.
+Another way to call other contracts is to use the low-level call.
 
-// This method is not recommended.
+This method is not recommended.
+ */
 
 contract Callee {
     uint public x;

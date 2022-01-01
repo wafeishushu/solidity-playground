@@ -1,12 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-// delegatecall is a low level function similar to call.
+/**
+delegatecall is a low level function similar to call.
 
-// When contract A executes delegatecall to contract B, B's code is excuted
+When contract A executes delegatecall to contract B, B's code is excuted
 
-// with contract A's storage, msg.sender and msg.value.
-
+with contract A's storage, msg.sender and msg.value.
+ */
+ 
 // NOTE: Deploy this contract first
 contract B {
     // NOTE: storage layout must be the same as contract A

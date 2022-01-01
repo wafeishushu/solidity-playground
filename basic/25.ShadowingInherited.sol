@@ -1,6 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
+/**
+Unlike functions, state variables cannot be overridden by re-declaring it in the child contract.
+
+Let's learn how to correctly override inherited state variables.
+ */
+
 contract A {
     string public name = "Contract A";
 
